@@ -235,5 +235,26 @@ nav a.myButton{
     width: 170px;
 }
 .inputwrap{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+input[type=text], input[type=email], textarea{
+    padding: 12px 20px;
+    width: 60%;
+    font-family:  'Playfair Display', serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+label{
+    display: block ;
+    margin-bottom: 10px;
+}
+.margin-right-a{
+    margin-right: 5px;
+    display: inline-block;
+}
+input[type=radio]{
+    margin-right: 40px;
+}
+form{
+    margin: 40px 0px;
 }
