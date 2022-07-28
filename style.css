@@ -1,0 +1,236 @@
+html{
+    height: 100px;
+    background-color: #c16969;
+    background-image: linear-gradient(73deg, #c16969 0%, #851ee8 58%, #001dea 100%);
+}
+body{ 
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.container {
+    width: 1080px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+header{  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex; 
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 255, 0.295);
+    border-radius: 12px;
+    border-bottom: 1px solid white;
+}
+
+.card1,.card2,.card3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    
+}
+a{
+    color: black; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex: 1;    
+}
+.navigation {
+    text-decoration: none; 
+    text-align: right;
+    flex: 1; 
+    
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
+}
+.cards{  
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+}
+.card1{ 
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%; 
+    text-decoration: none;
+}
+.card2{ 
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%; 
+}
+.card3{ 
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%; 
+}
+.herobox1{  
+    flex: 2;
+    padding-right: 100px;
+}
+.herobox2{  
+    flex: 1;
+    
+}
+h1{
+    font-size: 3.25rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 15px;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+}
+p{
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+}
+h2{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.2rem; 
+    margin: 10px;
+}
+.cards img{
+    font-size: 100px; 
+}
+.cards a{
+    text-decoration: none;
+    color: white;
+}
+.myButton{
+    background-color: white;  
+    color: #3348b5;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px; 
+    border-radius: 12px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+}
+.myButton:hover{
+    background-color: #3355c5;
+    color: white;
+    transition: 1s;
+}
+a.myButton{
+    display: inline-block;
+    margin-top: 20px;
+}
+.herobox2 img{
+    border-radius: 12px;
+}
+nav a.myButton{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbutton { 
+    font-family: 'Playfair Display', serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+    border:1px solid white;
+    padding: 11px 25px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.navbutton a{
+    color: white;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+/* .herobox1 :last-child {
+    color: #c16969;
+
+} */
+.tbox p:last-of-type{
+    font-size: 0.8rem;
+    padding-left: 300px;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    padding-top: 12px;
+    text-align: center;
+}
+.navbutton:hover .dropdown{
+    display: block; 
+}
+
+.dropdown .navbutton:hover{
+    background-color: rgb(130, 52, 182); 
+    color:  rgb(101, 42, 150);
+    transition: 0.5s;
+
+}
+.dropdown .navbutton a:hover{
+    color: rgb(209, 158, 143); 
+}
+
+
+.dropdown .navbutton{
+    width: 100px;
+}
+.bookOnlineDropdown{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    padding-top: 12px;
+    text-align: center;
+}
+.navbutton:hover .bookOnlineDropdown{
+    display: block; 
+}
+.bookOnlineDropdown .navbutton:hover{
+    background-color: rgb(130, 52, 182); 
+    color:  rgb(101, 42, 150);
+    transition: 0.5s;
+
+}
+.bookOnlineDropdown .navbutton a:hover{
+    color: rgb(209, 158, 143); 
+}
+.bookOnlineDropdown .navbutton{
+    width: 170px;
+}
