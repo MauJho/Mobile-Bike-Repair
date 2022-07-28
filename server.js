@@ -16,4 +16,4 @@ app.post('/', upload.single('image'), (req, res) => {
 
 app.listen(3005, () => {
   console.log('app en el puerto 3005')
-})
+}
